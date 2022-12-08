@@ -1,0 +1,154 @@
+
+/* PRODUCTS */
+
+
+.section-products {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;   
+}
+
+.section-title {
+    font-size: 18px !important;
+}
+
+.section-products-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-products-text p {
+    font-size: 20px;
+}
+
+.section-products-text h3 {
+    margin-bottom: 0;
+}
+
+.section-products-text-item {
+    padding-bottom: 20px;
+}
+
+.section-products-img {
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+/* MEDIA QUERYS */ 
+@media (max-width: 768px) { 
+    .section-products {
+        flex-direction: column;
+    }
+
+    .section-products-img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .section-products-text {
+        width: 100%;
+    }
+    
+}
+
+/* AB0UT US */
+.logo-about {
+    width: 200px;
+}
+
+
+.section-about {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.section-about-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-about-text p {
+    font-size: 20px;
+}
+
+.section-about-text h3 {
+    margin-bottom: 0;
+}
+
+.section-about-text-item {
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+
+.section-about-img {
+    width: 180px; 
+    padding-bottom: 40px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+@media (max-width: 991px) {  
+    .section-about { 
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 768px) {  
+    .section-about { 
+        flex-direction: column;
+    }
+
+    .section-about-img { 
+        display: none;
+    }
+
+    .section-about-text-item {
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {  
+    
+    .p40 {
+        padding-top: 0px;
+    }
+
+    .section-header {
+        width: 85%;
+    }
+
+    .section-content {
+        width: 100%;
+    }
+    .section-title {
+        font-size: 14px !important;
+    }
+
+    .section-subtitle {
+        font-size: 26px !important;
+    }
+
+    .section-products {
+        padding: 10px;
+    }
+
+    .section-products-img {
+        width: 90%;
+    }
+
+    .section-products-text {
+        width: 90%;
+    }
+}

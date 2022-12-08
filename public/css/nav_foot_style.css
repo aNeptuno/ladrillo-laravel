@@ -1,0 +1,114 @@
+/* NAVBAR */
+.navbar-1 {
+    display: none !important; 
+}
+
+.navbar-brand {
+    width: 35px;
+    margin-left: 15px;
+    
+}
+
+.bg-nav {
+    background-color: rgb(31, 30, 30) !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    font-size: 1.3em !important;
+    letter-spacing: 1px;
+    padding-right: 8px;
+}
+
+.offcanvas-header .btn-close{
+    padding: 20px !important;
+    font-size: 1.2em;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+}
+
+/* MEDIA QUERYS NAVBAR */
+@media (max-width: 991px) {
+    .navbar-1 {
+        display: flex !important;
+        position: fixed !important;
+        top: 0 !important;;
+        right: 0 !important;;
+        left: 0 !important;;
+        z-index: 1030 !important;; 
+    }
+
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 35% !important; 
+    }
+    .offcanvas.offcanvas-end {
+        border-left: 0px !important;
+    }
+
+    .nav-item {
+        padding: 20px;
+    }
+
+    .fa-brands {
+        font-size: 1.5em;
+        color: rgba(255, 255, 255, 0.308);
+    }
+
+    .fa-brands:hover {
+        color: #fff;
+    }
+
+    .brands-menu {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .brands-menu a {
+        padding-right: 20px;
+    }
+
+    .navbar-2 {
+        display: none !important; 
+    }
+}
+
+@media (max-width: 768px) {
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 50% !important; 
+    }
+
+    .nav-item {
+        font-size: 1.4em !important;
+    }
+}
+
+@media screen and (max-width: 576px) { 
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 100% !important; 
+    }
+}
+
+
+/*  FOOTER */
+
+.footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.308);
+    width: 80%;
+    margin: auto;
+}
+
+.footer span{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.527);
+}

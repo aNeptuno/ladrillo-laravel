@@ -1,0 +1,113 @@
+
+
+.img-p-1 {
+    background-image: url("../images/headers/productosHeader.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+.img-p-2 {
+    background-image: url("../images/headers/serviciosHeader.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+
+.img-p-3 {
+    background-image: url("../images/headers/aboutUsHeader.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+
+.img-p-4 {
+    background-image: url("../images/headers/trabajosHeader.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+
+
+
+.caption-left {
+    padding-bottom: 40px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-self: flex-end;
+}
+
+.caption-left h1 {
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.caption-left ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    background-color: transparent;
+    color: rgba(105, 105, 105, 0.6);
+    
+}
+
+.caption-left li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#first {
+    padding-left: 0;
+}
+
+.caption-left a {
+    text-decoration: none !important;
+    color: rgba(105, 105, 105, 0.6) !important;
+}
+
+.caption-left  a:hover {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.current {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* MEDIA QUERYS PRODUCTS */ 
+@media (max-width: 992px) { 
+    .caption-left { 
+        top: 28%;  
+    }
+}
+
+@media (max-width: 768px) { 
+    .caption-left {
+        display: block;
+    }
+
+    .caption-left ul {
+        font-size: 1.5em;
+    }
+
+    .caption-left h1 { 
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 500px) {  
+    
+    .caption-left {
+        padding-left: 5%;
+    } 
+}

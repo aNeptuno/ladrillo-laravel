@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BUTTON EDIT */
+
+.btn {
+    --bs-btn-hover-bg: #E87317;
+    --bs-btn-hover-border-color: #E87317;
+}
+
+
+/* BUTTON SCROLL DOWN */
+
+.button-scroll {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: solid .8px !important;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: rgba(0, 0, 0, 0.5);
+}
+
+.fa-angle-down {
+    font-size: 2em !important;
+}
+
+/* ACCORDION */
+
+.accordion-custom {
+    --bs-accordion-btn-color: white;
+    --bs-accordion-btn-bg:  rgba(40, 40, 40, 0.8); 
+    --bs-accordion-color: white;
+    --bs-accordion-bg: rgba(80, 80, 80, 0.8);
+    --bs-accordion-border-color: rgba(20, 20, 20, 0.2);
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-inner-border-radius: 0;
+    --bs-accordion-btn-focus-box-shadow: black;
+    --bs-accordion-active-color: rgb(252, 164, 97);
+    --bs-accordion-active-bg: rgba(40, 40, 40, 0.8); 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.accordion .accordion-button {
+    font-size: 24px;
+}
+
+.accordion .accordion-body {
+    font-size: 18px;
+}
+
+
+/* CAROUSEL */
+
+.carousel-indicators [data-bs-target] {
+    background-color: #d8d4d4 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.carousel-caption {
+    color:#d8d4d4 !important;
+    letter-spacing: 1px !important;
+}
+
+.carousel-caption p {
+    letter-spacing: 1px !important;
+}
+
+.carousel-inner {
+    width: 100% !important;
+    padding-bottom: 40px;
+}
+/* PARALLAX */
+
+.parallax {
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.p40 {
+    padding-top: 40px;
+}
+
+.p0 {
+    padding-left: 0 !important;
+}

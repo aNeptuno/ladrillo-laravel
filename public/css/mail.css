@@ -1,0 +1,26 @@
+
+h1 {
+    padding: 4px;
+    color: rgba(214, 142, 49, 0.747);
+}
+
+body {
+    background-image:  url("../images/logos/Copia\ de\ Isologotipo\ Naranja\ SVG.svg");
+    background-color: rgba(0, 0, 0,.9);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: center; 
+    color: rgba(245, 241, 237, 0.747);
+}
+
+p {
+    color: rgba(245, 241, 237, 0.568);
+    font-size: 1.8em;
+}
+
+span {
+    color: rgba(245, 241, 237, 0.568);
+    font-weight: bold;
+    font-size: .8em;
+}
