@@ -17,10 +17,14 @@ class ContactController extends Controller
     
     public function sendEmail(ContactFormRequest $request){
 
-        $response = Http::post('https://www.google.com/recaptcha/api/siteverify' , [
-            'secret' => env('RECAPTCHA_SECRET'),
+        /* $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify' , [
+            'secret' => '6LeTNWYjAAAAAIP_jSuRL1CwrWc_DbYUdoo19XrU',
             'response' => $request->input('g-recaptcha-response')
-        ]);
+        ])->object();
+
+        if($response->success && $response->score >= 0.7){
+
+        }; */
 
         /* METÓDO 1
         $request->validate([

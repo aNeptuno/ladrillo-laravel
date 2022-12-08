@@ -81,7 +81,7 @@ if (isset($_GET["mailError"])) {
     </div>
 </section>
 
-@push('js')
+<!-- @push('js')
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <script>
@@ -89,4 +89,4 @@ if (isset($_GET["mailError"])) {
             document.getElementById("contact-form").submit();
         }
     </script>
-@endpush
+@endpush -->
