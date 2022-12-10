@@ -1,9 +1,9 @@
 <section class="trans">  
-        <a>
+        <!-- <a>
             <button type="button" class="btn btn-outline-secondary button-scroll" onclick="scrollBtn()">
                 <i class="fa-solid fa-angle-down" id="button-scroll-icon"></i>
             </button>
-        </a>  
+        </a>   -->
 </section> 
 
 <!-- PRODUCTOS -->
