@@ -74,23 +74,14 @@
   }
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
  
-  .flip-box-container {
-      padding-right: 0 !important;
-      padding-left: 0 !important;
-      background-color: aqua;
-      text-align: center;
+  .flip-box {
+    margin: auto;
   }
 
-  .container {
-    max-width: 90% !important;
-    margin: auto !important;
-  }
-
-  .row>* {
-    width: 50% !important;
-    background-color: #bbb;
-  }
+  .p40 {
+    padding-top: 40px !important;
+  } 
 }
- */
+ 
