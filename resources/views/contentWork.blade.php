@@ -17,7 +17,7 @@
 
         <div class="flip-box-container-row row justify-content-evenly">
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box  reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box  reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-md-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
 
                 <div class="flip-box  reveal fade-bottom">
                     <div class="flip-box-inner">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box  reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -66,11 +66,9 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="flip-box-container-row row justify-content-around">
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -83,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -96,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-md-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -109,7 +107,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -121,11 +119,9 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="flip-box-container-row row justify-content-around">
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -138,7 +134,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -151,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-md-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-4">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -164,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-4 pb-lg-0">
+            <div class="flip-container col-xxl-3 col-lg-4 col-md-6 col-xs-12 pb-5">
                 <div class="flip-box reveal fade-bottom">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">

@@ -3,7 +3,7 @@
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #f1f1f1;
+    border: 0px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
  
@@ -64,7 +64,6 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
