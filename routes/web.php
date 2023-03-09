@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+/* SITEMAP */
+/* Route::get('/sitemap.xml', [SitemapController::class, 'sitemap']);  */
 
 Route::get('/', function () {
     return view('welcome');
@@ -34,5 +38,8 @@ Route::get('/works', function () {
     return view('works');
 });
 
+
 Route::post('/sendEmail',[ContactController::class,'sendEmail'])->name('contact.send');
+
+
 
